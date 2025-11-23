@@ -1,0 +1,13 @@
+{
+    "name": "Home Service Frontend",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    },
+    "postCreateCommand": "npm install"
+}
